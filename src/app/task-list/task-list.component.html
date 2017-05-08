@@ -1,0 +1,28 @@
+<div class="col-md-5">
+
+<div class="well" *ngFor="let task of tasks">
+
+  <div>{{task.name}}</div>
+  
+  <div *ngIf="task.category">Category: {{task.category}}</div>
+  <div>{{task.created}}</div>
+  <div>Is Completed: <input type="checkbox" [(ngModel)]="task.isCompleted"/></div>
+
+
+  <div [ngSwitch]="task.priority">
+
+    <div *ngSwitchCase="'High'"><span [ngClass]="['red']">High</span></div>
+    <div *ngSwitchCase="'Medium'"><span [ngStyle]="{'color':'yellow'}">Medium</span></div>
+    <div *ngSwitchCase="'Low'"><span style="color:green">Low</span></div>
+    <div *ngSwitchDefault><span style="color:blue">Very Low</span></div>
+
+  </div>
+  
+
+
+
+
+  <hr/>
+</div>
+
+</div>

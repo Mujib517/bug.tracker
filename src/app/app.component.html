@@ -1,17 +1,20 @@
 <h1>
   {{title}}
 
-<!--[] class to view.  ()  view to class  [()] two way binding-->
+  <!--[] class to view.  ()  view to class  [()] two way binding-->
   <!--banana in the box-->
-  <input type="text" [(ngModel)]="title" />
+  <!--<input type="text" [(ngModel)]="title" />-->
 
   <!--similar to ngshow-->
-  <h1 [class]="'blue'" [hidden]="prop1">This is shown</h1>
+  <!--<h1 [class]="'blue'" [hidden]="prop1">This is shown</h1>-->
 
   <!--one way binding from view to class-->
-  <button [class.blue]="prop" (click)="onClick($event)">Save</button>
+  <!--<button [class.blue]="prop" (click)="onClick($event)">Save</button>-->
 
   <!--<h1 [style]="{color:yellow}">Test</h1>-->
   <!--property binding is from class to view -->
-  <home-component [data]="prop"></home-component>
+  <!--<home-component [data]="prop"></home-component>-->
+
 </h1>
+
+<task-list></task-list>
