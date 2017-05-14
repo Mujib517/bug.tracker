@@ -1,0 +1,34 @@
+{
+    "tasks":[{
+            "id": 1,
+            "name": "Recharge",
+            "priority": "High",
+            "isCompleted": false,
+            "category": "General",
+            "created": "02-02-2017"
+        },
+        {
+           "id": 2,
+            "name": "Groceries",
+            "priority": "High",
+            "isCompleted": false,
+            "category": "General",
+            "created": "02-02-2017"
+        },
+        {
+            "id": 3,
+            "name": "Recharge",
+            "priority": "Medium",
+            "isCompleted": false,
+            "category": "General",
+            "created": "02-02-2017"
+        },
+      {
+            "id": 4,
+            "name": "Shop",
+            "priority": "Low",
+            "isCompleted": false,
+            "category": "General",
+            "created": "02-02-2017"
+        }]
+}
